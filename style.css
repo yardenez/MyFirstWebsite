@@ -116,6 +116,11 @@ section{
 	border-radius: 10px;
 }
 
+#like{
+	background-image:url(Images/like.jpg);
+	background-size: 100%;
+}
+
 h1{ color: white; font-family:'Open Sans Condensed', sans-serif;font-size: 46px; font-weight: 100;
 	letter-spacing: 1px; text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
