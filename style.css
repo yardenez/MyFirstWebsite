@@ -3,6 +3,7 @@ body
 	background-image:url(Images/white_grey.jpg);
 	text-align: center;
 	margin-top:40px;
+	font-family: 'Courier New', Courier, monospace;
 }
 #menu
 {
@@ -48,7 +49,7 @@ body
 /*limit size of all images*/
 
 section{
-	border:2px solid #f0cca8;
+	border:2px solid white;
 	margin-bottom: 2px;
 	
 }
@@ -131,4 +132,32 @@ h1{ color: white; font-family:'Open Sans Condensed', sans-serif;font-size: 46px;
 
 p{
 	  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; text-align: center; letter-spacing: 1px;font-family: Georgia, 'Times New Roman', Times, serif; color:whitesmoke;
+}
+
+form{
+	margin-left: 550px;
+}
+
+input{
+	border-radius: 10px;
+}
+
+input[type=text]{
+	border: 2px solid black;
+	border-radius: 6px;
+	width: 300px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	background-color: #F8F8FF;
+}
+input[type=text]:focus {
+	background-color:white;
+}
+
+input[type=submit],input[type=reset]{
+	padding: 10px 16px;
+	background-color:whitesmoke;
+	border: double black;
+	cursor: pointer;
 }
