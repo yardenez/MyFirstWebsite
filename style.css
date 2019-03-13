@@ -67,6 +67,7 @@ section{
 	background-repeat: no-repeat;
 	border-radius: 10px;
 	margin:0 auto;
+	object-fit: cover;
 }
 
 .container
