@@ -50,8 +50,7 @@ body
 
 section{
 	border:2px solid white;
-	margin-bottom: 2px;
-	
+	margin-bottom: 2px;	
 }
 
 #about
@@ -63,7 +62,6 @@ section{
 
 #photos
 {
-	/* position: relative; */
 	background-image:url(Images/camra_background.jpg);
 	background-size: 100%;
 	border-radius: 10px;
@@ -73,7 +71,6 @@ section{
 
 .container
 {
-	position:relative;
 	margin-right: 100px;
 	width: 1000px;
 	min-height: 500px;
@@ -82,22 +79,18 @@ section{
 	flex-wrap: wrap;
 }
 .container .box{
-	position:relative;
 	width: 200px;
 	height:150px;
 	margin:5px;
 	box-sizing: border-box;
 	display: inline-block;
-	position: relative;
 }
 
 .container .box .imgBox {
-	position: relative;
 	overflow: hidden;	
 }
 
 .container .box .imgBox img{
-	position:relative;
 	max-width: 100%;
 	max-height: 100%;
 	transition: transform 0.5s;
@@ -107,7 +100,6 @@ section{
 }
 .container .box:hover .imgBox img
 {
-	position:relative;
 	transform: scale(1.2);
 }
 
@@ -122,13 +114,19 @@ section{
 	background-size: 100%;
 }
 
+
 #contact{
 	background-image:url(Images/contact.jpg);
 	background-size: 100%;
 }
 
+#spa{
+	background-image:url(Images/QnA.jpg);
+	background-size: 100%;
+}
+
 h1{ color: white; font-family:'Open Sans Condensed', sans-serif;font-size: 46px; font-weight: 100;
-	letter-spacing: 1px; text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+	letter-spacing: 1px; text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
 p{
 	  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; text-align: center; letter-spacing: 1px;font-family: Georgia, 'Times New Roman', Times, serif; color:whitesmoke;
@@ -160,4 +158,9 @@ input[type=submit],input[type=reset]{
 	background-color:whitesmoke;
 	border: double black;
 	cursor: pointer;
+}
+
+input[name=Subject]{
+	width: 300px;
+	height:90px;
 }
