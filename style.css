@@ -130,9 +130,24 @@ section{
 h1{ color: white; font-family:'Open Sans Condensed', sans-serif;font-size: 46px; font-weight: 100;
 	letter-spacing: 1px; text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
+h2{
+	font-size: bold;
+	color:white;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 p{
 	  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; text-align: center; letter-spacing: 1px;font-family: Georgia, 'Times New Roman', Times, serif; color:whitesmoke;
 }
+
+.answer{
+	background-color: white;
+	color:black;
+	text-align: left;
+}
+
+
 
 form{
 	margin-left: 550px;
